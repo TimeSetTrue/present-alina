@@ -1,0 +1,169 @@
+.container {
+	width: 980px;
+	margin: 0 auto;
+	text-transform: uppercase;
+
+}
+
+h1 {
+	margin-top: 50px;
+}
+
+.locker__block {
+	text-align: center;
+
+}
+
+.locker {
+	color: #000;
+	font-size: 40px;
+}
+
+body {
+	padding: 40px 0 120px;
+	background: #ffabab;
+}
+
+.header {}
+
+.load p {
+	font-size: 22px;
+}
+
+.load__icon {
+	background: url('../img/loading.gif') center / 50px no-repeat;
+	height: 50px;
+}
+
+span {
+	color: #fff;
+	font-size: 2px;
+}
+
+.header__block_text p {
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	top: 30px
+}
+
+.header__block_text img {
+	max-width: 100%;
+}
+
+
+.header__block_block {
+	padding: 0 20px;
+	text-align: center;
+	width: 33%;
+}
+
+.last {
+	margin: 0 auto 90px;
+
+}
+
+
+.load__btn {
+	text-align: center;
+	margin: 165px 0;
+	position: relative;
+}
+
+.header__head {
+	text-align: center;
+}
+
+.header__block {
+	justify-content: space-between;
+}
+
+.btn {
+	border: none;
+	padding: 20px 50px;
+	font-size: 30px;
+	font-weight: bold;
+	border-top: 5px solid red;
+	border-right: 5px solid yellow;
+	border-bottom: 5px solid green;
+	border-left: 5px solid blue;
+	background: purple;
+	color: #fff;
+	transition: all 0.5s ease;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.btn:hover {
+	border-bottom: 5px solid red;
+	border-left: 5px solid yellow;
+	border-top: 5px solid green;
+	border-right: 5px solid blue;
+	background: #fff;
+	color: #000;
+}
+
+.header__block_block_wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__block_block-img {
+	position: relative;
+}
+
+
+.header__block_block-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	font-size: 29px !important;
+}
+
+.header__block img {
+	border-radius: 5px;
+}
+
+.playboy_block {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.playboy {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	position: absolute;
+}
+
+.playboy-1 {
+	top: -180px;
+
+}
+
+.playboy-2 {
+	top: -60px;
+
+	left: 240px;
+}
+
+.playboy-3 {
+	top: -60px;
+
+	left: 640px;
+}
+
+.playboy-4 {
+	top: 50px;
+
+}
