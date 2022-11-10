@@ -20,7 +20,7 @@ goto End
 :UNLOCK
 echo Enter password to unlock folder
 set/p "pass=>"
-if NOT %pass%== love goto FAIL
+if NOT %pass%== LOVE goto FAIL
 attrib -h -s "HTG Locker"
 ren "HTG Locker" Private
 echo Folder Unlocked successfully
